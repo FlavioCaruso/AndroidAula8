@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
         //Validando o clique do botão
         btn_make_calc.setOnClickListener {
-            //Declarando as variaveis
+            //Recebendo os valores dos inputs em string
             val pesoTxt = edt_peso.text.toString()
             val alturaTxt = edt_altura.text.toString()
 
